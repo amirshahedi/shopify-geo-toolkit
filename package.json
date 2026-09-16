@@ -1,0 +1,38 @@
+{
+  "name": "shopify-geo-toolkit",
+  "version": "0.1.0",
+  "description": "Open-source GEO/AEO toolkit for Shopify. Generates llms.txt, audits Product schema, and checks AI-crawler access via robots.txt.",
+  "type": "module",
+  "bin": {
+    "shopify-geo": "./bin/cli.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "node bin/cli.js generate",
+    "audit-schema": "node bin/cli.js audit-schema",
+    "audit-crawlers": "node bin/cli.js audit-crawlers"
+  },
+  "keywords": [
+    "shopify",
+    "geo",
+    "aeo",
+    "seo",
+    "llms-txt",
+    "ai-seo",
+    "generative-engine-optimization",
+    "answer-engine-optimization"
+  ],
+  "author": "Amir Shahedi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amirshahedi/shopify-geo-toolkit"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
